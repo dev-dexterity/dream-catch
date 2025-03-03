@@ -1,0 +1,119 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightgray;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 0, 0.651);
+  width: 100%;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.logo img {
+  height: 60px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: darkblue; /* Grey color */
+  font-size: 20px;
+  font-weight: 800;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: red; /* Dark blue on hover */
+  /* border-bottom: 2px solid #1f3c88; */
+  padding-bottom: 2px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1101;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background: black;
+  transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    width: 100%;
+    background: rgb(54, 54, 54);
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: top 0.4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav-links.open {
+    top: 110px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Hamburger Animation */
+  .hamburger.open .top {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.open .middle {
+    opacity: 0;
+  }
+
+  .hamburger.open .bottom {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}

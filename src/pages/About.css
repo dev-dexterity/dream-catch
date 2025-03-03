@@ -1,0 +1,175 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 200px 80px 20px;
+}
+
+/* Hero Section - Top part with left content and right image */
+.about-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+/* Bouncing Animation */
+.animated-bounce {
+  animation: bounce 2s infinite;
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.about-content h2 {
+  font-size: 42px;
+  color: #0c1d63;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  background: #2a48f3;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background: #1c36d0;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-image img {
+  max-width: 400px;
+  height: 400px;
+}
+
+/* Details Section - Bottom part with information */
+.about-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.details-content h2 {
+  font-size: 32px;
+  color: #0c1d63;
+  margin-bottom: 10px;
+}
+
+.details-content h3 {
+  font-size: 24px;
+  color: #0c1d63;
+  margin-bottom: 20px;
+}
+
+.details-content p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.details-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details-image img {
+  max-width: 400px;
+  height: 400px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .about-hero,
+  .about-details {
+    padding: 0 20px;
+  }
+
+  .about-content h2,
+  .details-content h2 {
+    font-size: 28px;
+  }
+
+  .details-content h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero,
+  .about-details {
+    flex-direction: column;
+  }
+
+  .about-content,
+  .details-content {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .about-image,
+  .details-image {
+    justify-content: center;
+  }
+
+  .about-image img,
+  .details-image img {
+    max-width: 80%;
+  }
+
+  .about-hero {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 60px 15px;
+  }
+
+  .about-content h2,
+  .details-content h2 {
+    font-size: 24px;
+  }
+
+  .details-content h3 {
+    font-size: 18px;
+  }
+
+  .about-content p,
+  .details-content p {
+    font-size: 14px;
+  }
+
+  .get-started-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
