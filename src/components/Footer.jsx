@@ -26,13 +26,13 @@ const Footer = () => {
             <a href="/" target="_blank" rel="noopener noreferrer">
               <FaGoogle />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/share/19HCopVhUT/" target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/dream_catch_placement?igsh=dmNyZmR4enZvZjZi" target="_blank" rel="noopener noreferrer">
               <ImInstagram />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/dream-catch-placement-and-training/" target="_blank" rel="noopener noreferrer">
               <LiaLinkedin />
             </a>
           </div>
@@ -62,11 +62,11 @@ const Footer = () => {
         <div className="footer-section">
           <h3>CONTACT US</h3>
           <p>
-            Meenakshipuram Society,
+            5th floor office 604,
             <br />
-            Sinhagad college road,
+            Dangat patil empire ,
             <br />
-            Vadgaon Budruk, Pune 411041, Maharashtra,
+            Navle Bridge, Pune 411041, Maharashtra,
             <br />
             India
           </p>
