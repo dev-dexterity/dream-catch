@@ -23,10 +23,13 @@ const Footer = () => {
             workshops in Pune.
           </p>
           <div className="social-icons">
-            <a href="https://www.facebook.com/share/1BvKCeRuxW/" target="_blank" rel="noopener noreferrer">
+            <a href="/" target="_blank" rel="noopener noreferrer">
+              <FaGoogle />
+            </a>
+            <a href="https://www.facebook.com/share/19HCopVhUT/" target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
-            <a href="https://www.instagram.com/dream_catch_placement?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/dream_catch_placement?igsh=dmNyZmR4enZvZjZi" target="_blank" rel="noopener noreferrer">
               <ImInstagram />
             </a>
             <a href="https://www.linkedin.com/company/dream-catch-placement-and-training/" target="_blank" rel="noopener noreferrer">
@@ -60,11 +63,11 @@ const Footer = () => {
           <h3>CONTACT US</h3>
           <h3>Pune</h3>
           <p>
-            Meenakshipuram Society,
+            5th floor office 604,
             <br />
-            Sinhagad college road,
+            Dangat patil empire ,
             <br />
-            Vadgaon Budruk, Pune 411041, Maharashtra,
+            Navle Bridge, Pune 411041, Maharashtra,
             <br />
             India
           </p>

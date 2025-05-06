@@ -71,7 +71,7 @@ const Contact = () => {
             Encompasses training, staffing, corporate programs, software
             development and project consultancy and our tie-ups with leading
             MNC's
-          </p>
+          </p>  
         </div>
         <div className="contact-hero-image">
           <div className="animated-bounce">
@@ -96,11 +96,11 @@ const Contact = () => {
               </div>
               <h3>Pune</h3>
               <p>
-                Meenakshipuram Society,
+                5th floor office 604,
                 <br />
-                Sinhagad college road,
+                Dangat patil empire ,
                 <br />
-                Vadgaon Budruk, Pune 411041, Maharashtra,
+                Navle Bridge, Pune 411041, Maharashtra,
                 <br />
                 India
               </p>
