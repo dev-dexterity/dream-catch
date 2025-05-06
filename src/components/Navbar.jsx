@@ -21,6 +21,7 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
+
   return (
     <nav className="navbar">
       <div className="logo">
@@ -65,6 +66,7 @@ const Navbar = () => {
             Courses
           </Link>
         </li>
+
         <li>
           <Link
             to="/contact"
@@ -74,6 +76,16 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <Link
+            to="/apply"
+            className={`btn blinking ${location.pathname === "/apply" ? "active" : ""}`}
+            onClick={closeMenu}
+          >
+            ApplyForJob!!!
+          </Link>
+        </li>
+
       </ul>
 
       {/* Hamburger Menu */}

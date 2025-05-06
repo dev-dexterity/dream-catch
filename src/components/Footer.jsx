@@ -23,16 +23,13 @@ const Footer = () => {
             workshops in Pune.
           </p>
           <div className="social-icons">
-            <a href="/" target="_blank" rel="noopener noreferrer">
-              <FaGoogle />
-            </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/share/1BvKCeRuxW/" target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/dream_catch_placement?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer">
               <ImInstagram />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/dream-catch-placement-and-training/" target="_blank" rel="noopener noreferrer">
               <LiaLinkedin />
             </a>
           </div>
@@ -61,12 +58,25 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>CONTACT US</h3>
+          <h3>Pune</h3>
           <p>
             Meenakshipuram Society,
             <br />
             Sinhagad college road,
             <br />
             Vadgaon Budruk, Pune 411041, Maharashtra,
+            <br />
+            India
+          </p>
+          <h3>Banglore</h3>
+          <p>
+            Second floor No.124 Ranganath Complex,
+            <br />
+            above Greenline Travels, Madiwala,
+            <br />
+            Venkatapura, HSR Layout 5th Sector,
+            <br />
+            Bengaluru, Karnataka 560068
             <br />
             India
           </p>

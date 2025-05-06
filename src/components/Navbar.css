@@ -13,6 +13,23 @@
   z-index: 1000;
 }
 
+.blinking {
+  animation: blink 1.2s infinite;
+  
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.btn{
+  padding: 5px 5px;
+  border: 2px solid red;
+  /* color: red; */
+  border-radius: 50px;
+  background-color: red;
+}
 /* Logo Styles */
 .logo {
   display: flex;
@@ -47,7 +64,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: darkblue; /* Grey color */
+  color: darkblue; 
   font-size: 20px;
   font-weight: 800;
   transition: color 0.3s ease-in-out;
@@ -55,7 +72,7 @@
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: red; /* Dark blue on hover */
+  color: black; /* Dark blue on hover */
   /* border-bottom: 2px solid #1f3c88; */
   padding-bottom: 2px;
 }

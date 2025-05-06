@@ -94,13 +94,25 @@ const Contact = () => {
               <div className="card-icon">
                 <i className="location-icon"></i>
               </div>
-              <h3>Address</h3>
+              <h3>Pune</h3>
               <p>
                 Meenakshipuram Society,
                 <br />
                 Sinhagad college road,
                 <br />
                 Vadgaon Budruk, Pune 411041, Maharashtra,
+                <br />
+                India
+              </p>
+              <h3>Banglore</h3>
+              <p>
+                Second floor No.124 Ranganath Complex, 
+                <br />
+                above Greenline Travels, Madiwala, 
+                <br />
+                Venkatapura, HSR Layout 5th Sector,
+                <br />
+                Bengaluru, Karnataka 560068
                 <br />
                 India
               </p>
